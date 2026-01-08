@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(225, 225, 225);
+    margin: 0;
+    padding: 0;
+}
+
+.site-header{
+    background-color: rgb(137, 252, 137);
+    height: 125px;
+}
+
+.recent-tasks{
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    /* for verical align too */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* shadow */
+    
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.no-recent-tasks{
+    text-align: center;
+    font-weight: 100;
+    color: rgb(97, 97, 97);
+}
+
+.new-task-btn-div{    
+    display: flex;
+    justify-content: center;
+}
+
+.new-task-btn{
+    background-color: rgb(137, 252, 137);
+    height: 50px;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.new-task-btn:hover{
+    transform: scale(1.08);
+    background-color: rgba(110, 230, 110);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.new-task-btn:active{
+    transform: scale(1.02);    
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
