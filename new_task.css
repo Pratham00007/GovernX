@@ -13,7 +13,7 @@ h2#New-task{
     text-align: center;
 }
 
-button#More-leader{
+button#More-leader-btn{
     background-color: #1F3A5F;
     width: 30px;
     height: 30px;
@@ -22,7 +22,7 @@ button#More-leader{
     border-radius: 10px;
 }
 
-button#More-members{
+button#Project-members-btn{
     background-color: #1F3A5F;
     width: 30px;
     height: 30px;
@@ -30,7 +30,8 @@ button#More-members{
     font-weight: 700;
     border-radius: 10px;
 }
-button#More-links {
+
+button#More-links-btn {
     background-color: #1F3A5F;
     width: 30px;
     height: 30px;
@@ -40,6 +41,3 @@ button#More-links {
     margin-top: 10px;
 }
 
-.link-row {
-    margin-bottom: 10px;
-}
