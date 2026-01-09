@@ -13,93 +13,103 @@
 
     <div class="new-task-body">
         <h2 id="New-task">Create New Task</h2>
+        <div class="new-task-container">
+            <div class="new-task-input">
+                Project Title: <input type="text"> <br>
+                Description: <input type="text"> <br>
+                Project Leader 
+                <table id="More-leader" cellpadding="8" cellspacing="0" border="0" >                
+                    <tbody>
+                        <tr>
+                            <td>1| </td>
+                            <td>
+                            Name <input type="text">
+                            </td>
+                            <td>
+                            Mail <input type="email">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="center-align">
+                    <button id="More-leader-btn">Add More</button> <br>
+                </div>
 
-        <div class="new-task-input">
-            Project Title: <input type="text"> <br>
-            Description: <input type="text"> <br>
-            Project Leader 
-            <table id="More-leader" cellpadding="8" cellspacing="0" border="0" >                
-                <tbody>
-                    <tr>
-                        <td>1| </td>
+                Project Members 
+                <table id="Project-members" cellpadding="8" cellspacing="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td>Name: <input type="text"></td>
+                            <td>Role: 
+                                <select>
+                                    <option>
+                                        Frontend Developer
+                                    </option>
+                                    <option>
+                                        Backend Developer
+                                    </option>
+                                    <option>
+                                        Designer
+                                    </option>
+                                    <option selected>
+                                        Other
+                                    </option>
+                                </select>
+                            </td>
+                            <td>Mail <input type="email "></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                
+                
+                
+                <div class="center-align">
+                    <button id="Project-members-btn">Add More</button><br>
+                </div>
+                <br>
+                Starting date <input type="date">
+                Completion date <input type="date"> <br>
+        
+                Links
+                <table id="links-table" border="1" cellpadding="8" cellspacing="0">
+                    <thead>
+                        <tr>
+                        <th>Title</th>
+                        <th>Decription</th>
+                        <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
                         <td>
-                        Name <input type="text">
-                        </td>
-                        <td>
-                        Mail <input type="email">
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <button id="More-leader-btn">+</button> <br>
-
-
-            Project Members 
-            <table id="Project-members" cellpadding="8" cellspacing="0" border="0">
-                <tbody>
-                    <tr>
-                        <td>Name: <input type="text"></td>
-                        <td>Role: 
                             <select>
-                                <option>
-                                    Frontend Developer
-                                </option>
-                                <option>
-                                    Backend Developer
-                                </option>
-                                <option>
-                                    Designer
-                                </option>
-                                <option selected>
-                                    Other
-                                </option>
+                            <option selected>Select</option>
+                            <option>Github</option>
+                            <option>Figma</option>
+                            <option>Canva</option>
+                            <option>Other</option>
                             </select>
                         </td>
-                        <td>Mail <input type="email "></td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            
-            
-            
-            <button id="Project-members-btn">+</button><br>
+                        <td>
+                            <input type="desription" placeholder="Any Description">
+                        </td>
+                        <td>
+                            <input type="url" placeholder="Enter link here">
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="center-align">
+                    <button id="More-links-btn">Add More</button>
+                </div>
+            </div>
+        </div>
 
-            Starting date <input type="date">
-            Completion date <input type="date"> <br>
-
-            Links
-            <table id="links-table" border="1" cellpadding="8" cellspacing="0">
-                <thead>
-                    <tr>
-                    <th>Title</th>
-                    <th>Decription</th>
-                    <th>Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td>
-                        <select>
-                        <option selected>Select</option>
-                        <option>Github</option>
-                        <option>Figma</option>
-                        <option>Canva</option>
-                        <option>Other</option>
-                        </select>
-                    </td>
-                    <td>
-                        <input type="desription" placeholder="Any Description">
-                    </td>
-                    <td>
-                        <input type="url" placeholder="Enter link here">
-                    </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <button id="More-links-btn">+</button>
-
+        
+        <div class="center-align">
+            <button id="Create-btn">Create</button>
         </div>
     </div>
 

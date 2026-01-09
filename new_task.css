@@ -15,7 +15,7 @@ h2#New-task{
 
 button#More-leader-btn{
     background-color: #1F3A5F;
-    width: 30px;
+    width: 110px;
     height: 30px;
     color: white;
     font-weight: 700;
@@ -24,7 +24,7 @@ button#More-leader-btn{
 
 button#Project-members-btn{
     background-color: #1F3A5F;
-    width: 30px;
+    width: 110px;
     height: 30px;
     color: white;
     font-weight: 700;
@@ -33,7 +33,7 @@ button#Project-members-btn{
 
 button#More-links-btn {
     background-color: #1F3A5F;
-    width: 30px;
+    width: 110px;
     height: 30px;
     color: white;
     font-weight: 700;
@@ -41,3 +41,37 @@ button#More-links-btn {
     margin-top: 10px;
 }
 
+.new-task-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.new-task-input{
+    width: 70%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;    
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.new-task-input:hover{
+    transform: scale(1.01);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.75);
+}
+
+.center-align{
+    display: flex;
+    justify-content: center;
+}
+
+
+button#Create-btn{
+    background-color: #1F3A5F;
+    width: 110px;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 50px;
+}
