@@ -5,7 +5,7 @@ body{
 }
 
 .site-header{
-    background-color: rgb(137, 252, 137);
+    background-color: #1F3A5F;
     height: 125px;
 }
 
@@ -36,7 +36,8 @@ body{
 }
 
 .new-task-btn{
-    background-color: rgb(137, 252, 137);
+    background-color: #1F3A5F;
+    color: white;
     height: 50px;
     width: 140px;
     border-radius: 8px;
@@ -44,16 +45,18 @@ body{
     margin-top: 20px;
     font-weight: 500;
     cursor: pointer;
+    
 
 }
 
 .new-task-btn:hover{
     transform: scale(1.08);
-    background-color: rgba(110, 230, 110);
+    background-color: #00265c;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 .new-task-btn:active{
     transform: scale(1.02);    
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    
 }

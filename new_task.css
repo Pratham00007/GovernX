@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(225, 225, 225);
+    margin: 0;
+    padding: 0;
+}
+
+.site-header{
+    background-color:#1F3A5F;
+    height: 125px;
+}
+
+h2#New-task{
+    text-align: center;
+}
+
+button#More-leader{
+    background-color: #1F3A5F;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+button#More-members{
+    background-color: #1F3A5F;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+button#More-links {
+    background-color: #1F3A5F;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.link-row {
+    margin-bottom: 10px;
+}
