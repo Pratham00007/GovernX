@@ -75,3 +75,8 @@ button#Create-btn{
     border-radius: 10px;
     margin: 50px;
 }
+
+.links-table{
+    display: flex;
+    justify-content: center;
+}

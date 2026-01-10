@@ -5,10 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Task-GovernX</title>
     <link rel="stylesheet" href="new_task.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
      <div class="site-header">
-        
+        <header>
+            <div class="left-icons">
+                
+                <span class="icon">
+                    <img src="assets/pic/logo7.png" alt="logo" height="60px" width="120px" style="margin-left: 10px;">
+                </span>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="right-icons">
+              <i class="fas fa-cog" style="color:white;"></i>
+                <i class="fas fa-bell" style="color:white;"></i>
+                <i class="fas fa-info-circle" style="color:white;"></i>
+
+                <div class="circle-text">P</div>
+            </div>
+        </header>
     </div>
 
     <div class="new-task-body">
@@ -69,38 +91,39 @@
                 </div>
                 <br>
                 Starting date <input type="date">
-                Completion date <input type="date"> <br>
+                Completion date <input type="date"> <br><br>
         
                 Links
-                <table id="links-table" border="1" cellpadding="8" cellspacing="0">
-                    <thead>
-                        <tr>
-                        <th>Title</th>
-                        <th>Decription</th>
-                        <th>Link</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <td>
-                            <select>
-                            <option selected>Select</option>
-                            <option>Github</option>
-                            <option>Figma</option>
-                            <option>Canva</option>
-                            <option>Other</option>
-                            </select>
-                        </td>
-                        <td>
-                            <input type="desription" placeholder="Any Description">
-                        </td>
-                        <td>
-                            <input type="url" placeholder="Enter link here">
-                        </td>
-                        </tr>
-                    </tbody>
-                </table>
-                
+                <div class="links-table">
+                    <table id="links-table" border="1" cellpadding="8" cellspacing="0">
+                        <thead>
+                            <tr>
+                            <th>Title</th>
+                            <th>Decription</th>
+                            <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>
+                                <select>
+                                <option selected>Select</option>
+                                <option>Github</option>
+                                <option>Figma</option>
+                                <option>Canva</option>
+                                <option>Other</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="desription" placeholder="Any Description">
+                            </td>
+                            <td>
+                                <input type="url" placeholder="Enter link here">
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>   
                 <div class="center-align">
                     <button id="More-links-btn">Add More</button>
                 </div>

@@ -7,8 +7,49 @@ body{
 .site-header{
     background-color: #1F3A5F;
     height: 125px;
+    margin-top: 0%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* aligns left, center, right vertically */
+  padding: 10px 20px;
 }
 
+.left-icons, .right-icons {
+  display: flex;
+  align-items: center;   /* keeps children aligned */
+  gap: 15px;    
+  margin-right: 20px;         /* spacing between items */
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: white;
+  background-color: #1F3A5F;
+}
+
+.circle-text {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+}
 .recent-tasks{
     height: 200px;
     margin-bottom: 10px;
